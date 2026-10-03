@@ -1,0 +1,12 @@
+logs/
+data/raw/
+data/transformed/
+data/*.csv
+__pycache__/
+*.pyc
+.env
+airflow-webserver.pid
+.venv/
+.DS_Store
+.vscode/
+.idea/

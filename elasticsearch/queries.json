@@ -1,0 +1,53 @@
+{
+  "average_temperature": {
+    "size": 0,
+    "aggs": {
+      "average_mean_temperature": {
+        "avg": {
+          "field": "mean_temperature"
+        }
+      }
+    }
+  },
+  "maximum_temperature": {
+    "size": 0,
+    "aggs": {
+      "maximum_temperature": {
+        "max": {
+          "field": "max_temperature"
+        }
+      }
+    }
+  },
+  "total_precipitation": {
+    "size": 0,
+    "aggs": {
+      "total_rain": {
+        "sum": {
+          "field": "total_precipitation"
+        }
+      }
+    }
+  },
+  "maximum_wind": {
+    "size": 0,
+    "aggs": {
+      "maximum_wind_speed": {
+        "max": {
+          "field": "max_wind_speed"
+        }
+      }
+    }
+  },
+  "rainiest_days": {
+    "size": 5,
+    "sort": [
+      {
+        "total_precipitation": {
+          "order": "desc"
+        }
+      }
+    ],
+    "_source": ["date", "total_precipitation"]
+  }
+}

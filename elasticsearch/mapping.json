@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "properties": {
+      "date": {
+        "type": "date"
+      },
+      "mean_temperature": {
+        "type": "float"
+      },
+      "max_temperature": {
+        "type": "float"
+      },
+      "min_temperature": {
+        "type": "float"
+      },
+      "total_precipitation": {
+        "type": "float"
+      },
+      "max_wind_speed": {
+        "type": "float"
+      }
+    }
+  }
+}
