@@ -227,6 +227,10 @@ Une fois les quatre tâches terminées avec succès, ouvrir Kibana à l'adresse 
 3. sélectionner le fichier kibana/dashboard.ndjson ;
 4. confirmer l'import ;
 5. ouvrir le dashboard **Météo d'Antananarivo**.
+6. changer en absolute le choix de date select.
+7. choisir 01 septembre 2026 pour start date.
+8. laisser now pour end date.
+9. réactualiser pour obtenir les valeurs dans le dashboard.
 
 Le dashboard utilise l'index weather_data et le champ date comme champ temporel.
 
