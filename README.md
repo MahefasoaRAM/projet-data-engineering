@@ -267,7 +267,7 @@ Les variables d'environnement doivent être chargées avant l'exécution. L'exé
 
 ### Dashboard Kibana
 
-![Dashboard Kibana](screenshots/kidana_dashboard.png)
+![Dashboard Kibana](screenshots/kibana_dashboard.png)
 
 ## 10. Conclusion
 
