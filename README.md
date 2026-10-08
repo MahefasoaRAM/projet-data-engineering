@@ -269,6 +269,10 @@ Les variables d'environnement doivent être chargées avant l'exécution. L'exé
 
 ![Dashboard Kibana](screenshots/kibana_dashboard.png)
 
+### Démonstration vidéo
+
+![Démonstration](screenshots/demonstration.webm)
+
 ## 10. Conclusion
 
 Une donnée suit le parcours suivant : Open-Meteo fournit une observation quotidienne ; Airflow déclenche l'extraction ; Pandas nettoie, convertit et renomme les champs ; la validation vérifie le schéma et la qualité ; Elasticsearch stocke un document par jour ; enfin Kibana agrège ces documents pour afficher les tendances de température, les précipitations et le vent.
